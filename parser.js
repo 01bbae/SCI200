@@ -1,4 +1,4 @@
-let myRequest = new Request('.gitignore\\data\\los_angeles_censustracts.json');
+let myRequest = new Request('\\los_angeles_censustracts.json');
 fetch(myRequest)
     .then(response => response.json())
     .then(data =>{
