@@ -18,7 +18,7 @@ fetch(myRequest)
             for(var j=0;j<data.features[i].geometry.coordinates[0].length;++j)
             data.features[i].geometry.coordinates[0][j] = data.features[i].geometry.coordinates[0][j].reverse();
         }
-        console.log(data.features[1].geometry.coordinates[0])
+        // console.log(data.features[1].geometry.coordinates[0])
         var polygons = new Array();
         //storing polygon objects and adding to map
         for(var i=0;i<data.features.length;++i){
@@ -28,3 +28,10 @@ fetch(myRequest)
         // var popup = L.popup()
         // .setLatLng(coord[0][0])
     })
+
+// let myRequest2 = new Request('los_angeles-censustracts-2020-1-All-HourlyAggregate.csv')
+// fetch(myRequest2)
+//     .then(response=>response.text())
+//     .then(text=>{
+//         text.split('\n');
+//     })
