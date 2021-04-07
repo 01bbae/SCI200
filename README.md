@@ -1,5 +1,5 @@
 # SCI200
-#How to use this page
+**How to use this page**
 1. Go to Uber Movement and search up Los Angeles and click travel times
 2. Click Download data at the bottom of the sidbar
 3. Go to geoboundaries tab, agree to terms, and download.
